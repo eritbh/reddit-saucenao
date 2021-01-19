@@ -1,5 +1,5 @@
 import nodeResolve from '@rollup/plugin-node-resolve';
-const webextManifest = require('../rollup-plugin-webext-manifest/dist/index');
+import webextManifest from 'rollup-plugin-webext-manifest';
 
 export default {
 	input: 'src/manifest.json',
