@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/Geo1088/reddit-saucenao",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Use build:chrome or build:firefox.'",
+    "build:chrome": "TARGET_PLATFORM=chrome rollup -c",
+    "build:firefox": "TARGET_PLATFORM=gecko rollup -c",
+    "clean": "rm -r build",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@geo1088/eslint-config": "^3.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@webcomponents/custom-elements": "^1.4.3",
+    "eslint": "^7.16.0",
+    "rollup": "^2.35.1",
+    "rollup-plugin-webext-manifest": "../rollup-plugin-webext-manifest",
+    "webextension-polyfill": "^0.7.0"
+  }
+}
