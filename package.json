@@ -16,7 +16,7 @@
     "@webcomponents/custom-elements": "^1.4.3",
     "eslint": "^7.16.0",
     "rollup": "^2.35.1",
-    "rollup-plugin-webext-manifest": "../rollup-plugin-webext-manifest",
+    "rollup-plugin-webext-manifest": "^0.1.5",
     "webextension-polyfill": "^0.7.0"
   }
 }

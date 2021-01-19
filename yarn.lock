@@ -701,8 +701,10 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-rollup-plugin-webext-manifest@../rollup-plugin-webext-manifest:
+rollup-plugin-webext-manifest@^0.1.5:
   version "0.1.5"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-webext-manifest/-/rollup-plugin-webext-manifest-0.1.5.tgz#32f1901e5b521e42025aa964ebbb96aef65afc15"
+  integrity sha512-9iJTXn/DbMWadYZP4hd6A+/e8MIuqcAP38WaZWaFEmU4Zt65koNtteckAAfO6mAzdT3Vh8tjXHKi3YbjMujhJg==
   dependencies:
     rollup "^2.35.1"
 
